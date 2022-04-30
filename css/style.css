@@ -1,7 +1,68 @@
-@media only screen and (max-width: 576px) {
-  .card {
-    margin-bottom: 15px;
+@media (min-width: 576px) {
+  .profiles {
+    margin-bottom: 75px;
   }
+  .jennie {
+    right: 45px !important;
+  }
+  .jisoo {
+    right: 4px !important;
+  }
+  .lisa {
+    right: 1px !important;
+  }
+}
+@media (min-width: 768px) {
+  .profiles {
+    margin-bottom: 75px;
+  }
+  .profiles p {
+    font-size: 25px;
+  }
+  .jennie {
+    right: 84px !important;
+  }
+  .jisoo {
+    right: 55px !important;
+  }
+  .lisa {
+    right: 50px !important;
+  }
+  .rose {
+    right: 48px !important;
+  }
+  .profiles__group:hover .position {
+    top: 15rem !important;
+  }
+}
+.card {
+  margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+  .profiles {
+    margin-bottom: 75px;
+  }
+  .profiles p {
+    font-size: 25px;
+  }
+  .jennie {
+    right: 84px !important;
+  }
+  .jisoo {
+    right: 55px !important;
+  }
+  .lisa {
+    right: 50px !important;
+  }
+  .rose {
+    right: 48px !important;
+  }
+  .profiles__group:hover .position {
+    top: 15rem !important;
+  }
+}
+.card {
+  margin-bottom: 15px;
 }
 .bg-blue {
   background-color: #2292fa;
