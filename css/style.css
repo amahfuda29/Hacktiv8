@@ -12,6 +12,11 @@
     right: 1px !important;
   }
 }
+@media (max-width: 575.98px) {
+  .profiles {
+    margin-bottom: 110px;
+  }
+}
 @media (min-width: 768px) {
   .profiles {
     margin-bottom: 75px;
