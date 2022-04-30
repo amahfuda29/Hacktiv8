@@ -1,0 +1,135 @@
+@media only screen and (max-width: 576px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+.bg-blue {
+  background-color: #2292fa;
+}
+body {
+  background-color: #e7e7e7;
+  position: relative;
+}
+footer {
+  background-color: #2292fa;
+  color: #fefefe;
+  height: 50px;
+}
+footer p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 14px;
+}
+footer p a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-link:hover {
+  transition: 0.4s;
+  background-color: #30303048;
+  border-radius: 5px;
+}
+#home a:hover {
+  background-color: #a5a5a5;
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
+#home {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://source.unsplash.com/VieM9BdZKFo/1920x1080");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact {
+  background-color: #fefefe;
+}
+.fw-bold {
+  color: #4d4d4d;
+}
+.lead {
+  color: #4d4d4d;
+}
+.btn {
+  background-color: #2292fa;
+  color: #fff;
+}
+#about {
+  margin-top: 20px;
+}
+section h1 {
+  color: #2292fa;
+  margin-bottom: 70px;
+  text-align: center;
+}
+#portofolio {
+  background-color: #fefefe;
+}
+#blog {
+  background-color: #fefefe;
+}
+
+#about span {
+  color: #4d4d4d;
+  text-align: center;
+}
+.profile {
+  border-left: solid #009297 4px;
+}
+.profile p {
+  color: #4d4d4d;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: large;
+}
+.profile h3 {
+  color: #009297;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+.profiles {
+  display: flex;
+}
+.profiles__group {
+  position: relative;
+  cursor: pointer;
+  padding-left: 25px;
+}
+.profiles img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  position: relative;
+  transition: 5s top ease-in-out;
+  text-align: center;
+}
+.profiles__group p {
+  position: absolute;
+  background-color: #2a324b;
+  border-radius: 0.2rem;
+  color: white;
+  text-align: center;
+  left: 45%;
+  display: none;
+  padding: 0.2rem 0.5rem;
+}
+.profiles__group:hover img {
+  top: -2rem;
+}
+.profiles__group:hover p {
+  display: block;
+}
+
+.profiles__group .position {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+}
+.profiles__group:hover .position {
+  top: 11rem;
+}
