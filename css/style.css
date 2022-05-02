@@ -14,7 +14,19 @@
 }
 @media (max-width: 575.98px) {
   .profiles {
-    margin-bottom: 110px;
+    margin-bottom: 100px;
+  }
+  .profiles__group .position {
+    font-size: 22px !important;
+  }
+  .profiles__group:hover .position {
+    top: 7.5rem !important;
+  }
+  .jennie {
+    left: 65px !important;
+  }
+  .jisoo {
+    left: 45px !important;
   }
 }
 @media (min-width: 768px) {
@@ -37,11 +49,8 @@
     right: 48px !important;
   }
   .profiles__group:hover .position {
-    top: 15rem !important;
+    top: 16.5rem !important;
   }
-}
-.card {
-  margin-bottom: 15px;
 }
 @media (min-width: 992px) {
   .profiles {
@@ -51,19 +60,70 @@
     font-size: 25px;
   }
   .jennie {
-    right: 84px !important;
+    right: 30px !important;
   }
+  .jenniep {
+    left: 37% !important;
+  }
+
   .jisoo {
-    right: 55px !important;
+    right: 0px !important;
   }
   .lisa {
-    right: 50px !important;
+    right: -15px !important;
   }
   .rose {
-    right: 48px !important;
+    right: -25px !important;
   }
   .profiles__group:hover .position {
     top: 15rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .profiles {
+    margin-bottom: 75px;
+  }
+  .profiles p {
+    font-size: 25px;
+  }
+  .jennie {
+    right: 50px !important;
+  }
+  .jenniep {
+    left: 37% !important;
+  }
+
+  .jisoo {
+    right: 20px !important;
+  }
+  .lisa {
+    right: 5px !important;
+  }
+  .rose {
+    right: -5px !important;
+  }
+  .profiles__group:hover .position {
+    top: 12rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .jennie {
+    left: 35% !important;
+  }
+  .jenniep {
+    left: 41% !important;
+  }
+  .jisoo {
+    right: 35px !important;
+  }
+  .lisa {
+    right: 30px !important;
+  }
+  .rose {
+    right: 28px !important;
+  }
+  .profiles__group:hover .position {
+    top: 14.5rem !important;
   }
 }
 .card {
