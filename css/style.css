@@ -26,7 +26,10 @@
     left: 65px !important;
   }
   .jisoo {
-    left: 45px !important;
+    left: 35px !important;
+  }
+  .rose {
+    left: 20px !important;
   }
 }
 @media (min-width: 768px) {
